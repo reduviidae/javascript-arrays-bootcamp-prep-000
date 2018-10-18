@@ -6,7 +6,7 @@ var chocolateBars = new Array (
   );
   
   function addElementToBeginningOfArray (a, b) {
-    return [a, ...a];
+    return [b, ...a];
   }
   
   addElementToBeginningOfArray(chocolateBars, "banana");
