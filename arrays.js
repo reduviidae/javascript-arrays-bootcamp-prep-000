@@ -16,6 +16,7 @@ var chocolateBars = new Array (
   
   function addElementToEndOfArray (a, b) {
     a.push(b);
+    return a;
   }
   
   function accessElementInArray (a, b) {
