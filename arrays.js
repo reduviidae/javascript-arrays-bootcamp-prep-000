@@ -11,8 +11,7 @@ var chocolateBars = new Array (
   
   addElementToBeginningOfArray(chocolateBars, "banana");
   console.log(chocolateBars);
-  console.log(newArray);
-  
+
   function destructivelyAddElementToBeginningOfArray (a, b) {
     a.unshift(b);
     return a;
