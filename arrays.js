@@ -9,16 +9,10 @@ var chocolateBars = new Array (
     return [b, ...a];
   }
   
-  addElementToBeginningOfArray(chocolateBars, "banana");
-  console.log(chocolateBars);
-
   function destructivelyAddElementToBeginningOfArray (a, b) {
     a.unshift(b);
     return a;
   }
-  
-  destructivelyAddElementToBeginningOfArray(chocolateBars, "banana");
-  console.log(chocolateBars);
   
   function addElementToEndOfArray (a, b) {
     a.push(b);
